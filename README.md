@@ -42,7 +42,7 @@ Thêm **thanh seek kéo được** và **hiển thị thời gian** cho Facebook
     <li><b>Cài một lần nhấp:</b> mở link sau để Tampermonkey tự nhận và hỏi cài đặt:</li>
   </ol>
   <p>
-    <a href="https://raw.githubusercontent.com/DuckCIT/custom-fb-story-seekbar/main/userscript/custom_fb_stories_seekbar.user.js" target="_blank" rel="noopener noreferrer"><b>Cài Custom FB Stories Seekbar</b></a>
+    <a href="https://raw.githubusercontent.com/DuckCIT/Custom-FB-Stories-Seekbar/main/userscript/custom_fb_stories_seekbar.user.js" target="_blank" rel="noopener noreferrer"><b>Cài Custom FB Stories Seekbar</b></a>
   </p>
   <ol start="3">
     <li>Nhấn <b>Install</b> trong Tampermonkey.</li>
@@ -83,7 +83,7 @@ Mở link:
 Tampermonkey sẽ tự nhận và hiển thị màn hình cài đặt.
 
 **Link cài trực tiếp (GitHub Raw):**
-- https://raw.githubusercontent.com/DuckCIT/custom-fb-story-seekbar/main/userscript/custom_fb_stories_seekbar.user.js
+- https://raw.githubusercontent.com/DuckCIT/Custom-FB-Stories-Seekbar/main/userscript/custom_fb_stories_seekbar.user.js
 
 ## Cách 2: Chrome Extension
 
