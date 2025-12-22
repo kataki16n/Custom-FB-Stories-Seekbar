@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         Custom Seekbar for Facebook Stories
-// @namespace    https://github.com/DuckCIT/custom-fb-story-seekbar
+// @namespace    https://github.com/DuckCIT/Custom-FB-Stories-Seekbar
 // @version      1.0.0
 // @description  Adds a draggable seekbar and time display for Facebook Stories videos.
 // @author       DuckCIT
-// @homepageURL  https://github.com/DuckCIT/custom-fb-story-seekbar
-// @supportURL   https://github.com/DuckCIT/custom-fb-story-seekbar/issues
-// @icon         https://raw.githubusercontent.com/DuckCIT/custom-fb-story-seekbar/main/extension/icons/icon.png
-// @updateURL    https://raw.githubusercontent.com/DuckCIT/custom-fb-story-seekbar/main/userscript/custom_fb_stories_seekbar.user.js
-// @downloadURL  https://raw.githubusercontent.com/DuckCIT/custom-fb-story-seekbar/main/userscript/custom_fb_stories_seekbar.user.js
+// @homepageURL  https://github.com/DuckCIT/Custom-FB-Stories-Seekbar
+// @supportURL   https://github.com/DuckCIT/Custom-FB-Stories-Seekbar/issues
+// @icon         https://raw.githubusercontent.com/DuckCIT/Custom-FB-Stories-Seekbar/main/extension/icons/icon.png
+// @updateURL    https://raw.githubusercontent.com/DuckCIT/Custom-FB-Stories-Seekbar/main/userscript/custom_fb_stories_seekbar.user.js
+// @downloadURL  https://raw.githubusercontent.com/DuckCIT/Custom-FB-Stories-Seekbar/main/userscript/custom_fb_stories_seekbar.user.js
 // @match        https://www.facebook.com/*
 // @match        https://m.facebook.com/*
 // @run-at       document-idle
