@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "Custom Seekbar for Facebook Stories",
+  "author": "Duck CIT",
+  "homepage_url": "https://github.com/duckcit/custom-fb-story-seekbar",
+  "version": "1.0.0",
+  "icons": {
+    "128": "icons/icon.png"
+  },
+  "description": "Adds a draggable seekbar and time display for Facebook Stories videos.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.facebook.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "story_seekbar.js"
+      ],
+      "matches": [
+        "*://*.facebook.com/*"
+      ]
+    }
+  ],
+  "permissions": [
+    "tabs"
+  ],
+  "host_permissions": [
+    "*://*.facebook.com/*"
+  ]
+}
